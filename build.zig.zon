@@ -2,6 +2,7 @@
     .name = .tree_sitter,
     .fingerprint = 0x841224b47f8817f2,
     .version = "0.25.0",
+    .minimum_zig_version = "0.15.1",
     .dependencies = .{
         .@"tree-sitter-c" = .{
             .url = "https://github.com/tree-sitter/tree-sitter-c/archive/refs/tags/v0.23.4.tar.gz",
@@ -9,8 +10,8 @@
             .lazy = true,
         },
         .tree_sitter = .{
-            .url = "git+https://github.com/tree-sitter/tree-sitter#521da2b0a7e8815efbcf1e4b98e5ac16113c5763",
-            .hash = "tree_sitter-0.26.0-Tw2sRze4CwBXko_uJgxJ1MkugKV8iVAQuPLxNRHrcqab",
+            .url = "git+https://github.com/tree-sitter/tree-sitter#fee50ad0ce3279f9c6f96576af24787601bbdc5f",
+            .hash = "tree_sitter-0.26.0-Tw2sR1a7CwBeC8P-vPp8sFeJgyALogRv9Dc3YC8IPy62",
         },
     },
     .paths = .{
